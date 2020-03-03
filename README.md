@@ -38,15 +38,15 @@ Esta guia esta basada en el lab0 de intel [link](./docs//Intro_to_FPGA.pdf)
 * Una vez instalado, debe abrir el programa ´Quartus´.
 * En la barra de herramientas (toolbar) de Quartus, navegar en el menu 'File' y hacer clic en  ´´´New Project Wizard´´´. (ver imagen)
 
-![proyectWizard](./figs/f1.png) 
+![proyectWizard](./figs/f1.PNG) 
 
-![proyectWizard](./figs/f2.png) 
+![proyectWizard](./figs/f2.PNG) 
 
-![proyectWizard](./figs/f3.png) 
+![proyectWizard](./figs/f3.PNG) 
 
-![proyectWizard](./figs/f4.png) 
+![proyectWizard](./figs/f4.PNG) 
 
-![proyectWizard](./figs/f5.png) 
+![proyectWizard](./figs/f5.PNG) 
 
 ### Ejercicio 1 - Diseño de sumador 1 bit 
 
