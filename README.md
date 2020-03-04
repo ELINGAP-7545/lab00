@@ -33,7 +33,7 @@ Esta guia esta basada en el lab0 de intel [link](./docs//Intro_to_FPGA.pdf)
 
 **NOTA**: si no cuenta con usuario registrado en la pagina de Intel debe crear uno.
 
-## Configuración básica para configurar un nuevo proyecto en Quartus Prime lite
+## Configuración básica para un nuevo proyecto en Quartus Prime lite
 
 * Una vez instalado, debe abrir el programa ´Quartus´.
 * En la barra de herramientas (toolbar) de Quartus, navegar en el menu ```File``` y hacer clic en  ```New Project Wizard```. (ver imagen)
@@ -63,13 +63,11 @@ Esta guia esta basada en el lab0 de intel [link](./docs//Intro_to_FPGA.pdf)
 ![proyectWizard](./figs/f4b.PNG) 
 
 
-![proyectWizard](./figs/f5.PNG) 
 
-### Ejercicio 1 - Diseño de sumador 1 bit 
+### Escritura HDL 
+#### Diseño de sumador 1 bit 
 
-
-
-### Especificación
+##### 1 Especificación
 Diseñar un sumador de un bit A y un bit B completo. Es decir el sumador cuenta con carrier  y se comporta acorde a la siguiente tabla de verdad.
 
 A  | B  | Cin | Out | Cout 
@@ -83,25 +81,29 @@ A  | B  | Cin | Out | Cout
 1| 1 | 0 | 0| 1
 1| 1 | 1 | 1| 1
 
-## Bloque Funcional
+##### 2 Bloque Funcional
 
 Según la especificación del sumador completo de 1 bit. se deduce que el bloque o modulo funcional esta dado por la siguiente gráfica: 
 
 ![Sumador 1bit](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab01-sumador1b/doc/bloqSum1b.jpg)
 
-## Lógica Combinacional 
+##### 3 Lógica Combinacional 
 
 Optimizando el circuito, según la Tabla de verdad , podemos observar que la lógica combinación del ejercicio propuesto esta dada por:
 
 ![Sumador 1bit](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/blob/master/lab/lab01-sumador1b/doc/sum1bPuertas.jpg)
  
-## Implementación HDL verilog
+##### 4 Implementación HDL verilog
 
-Antes que nada  verifique que tenga el programa para sintetizar la descripción de hardware.
+  Nota: verifique que tenga el programa para sintetizar la descripción de hardware, para este ejemplo, se usa [Quartus prime lite](https://github.com/ELINGAP-7545/lab00#configuraci%C3%B3n-b%C3%A1sica-para-un-nuevo-proyecto-en-quartus-prime-lite), si desea usar ise  ir al  [link](https://github.com/Fabeltranm/SPARTAN6-ATMEGA-MAX5864/wiki/Introducci%C3%B3n) 
 
-### Descripción Funcional 
 
-Una vez abierto el  framework  de su preferencia, digitar o copiar el siguiente código
+Una vez abierto el  framework  de [Quartus prime lite](https://github.com/ELINGAP-7545/lab00#configuraci%C3%B3n-b%C3%A1sica-para-un-nuevo-proyecto-en-quartus-prime-lite), En la barra de herramientas (toolbar) de Quartus, navegar en el menu File y hacer clic en New... selecionar verilog HDL File (ver imagen)
+
+
+
+
+![proyectWizard](./figs/f5.PNG) 
 
 ```verilog
 
