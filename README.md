@@ -158,8 +158,8 @@ endmodule
 
 Se evidencia que esta nueva descripción cuenta con un  ```  Reg ```  de 2 bits ``` st ```. ``` Reg ``` , en este sentido, representan un elemento de almacenamiento de datos y conserva dicho valor hasta que se les asigna el siguiente valor.
 
-### Simulación ISIM
-General la simulación visual  y forzar la entradas A B y Ci a clock para  validar todas las posibles entradas.
+### Simulación MULTISIM
+General la simulación visual  revise el testbench pata genrar las entradas A B y Ci a clock para  validar todas las posibles entradas.
 Comprobar su funcionamiento.
 
 
