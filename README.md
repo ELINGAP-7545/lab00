@@ -158,8 +158,17 @@ endmodule
 
 Se evidencia que esta nueva descripción cuenta con un  ```  Reg ```  de 2 bits ``` st ```. ``` Reg ``` , en este sentido, representan un elemento de almacenamiento de datos y conserva dicho valor hasta que se les asigna el siguiente valor.
 
-### Simulación MULTISIM
-General la simulación visual  revise el testbench pata genrar las entradas A B y Ci a clock para  validar todas las posibles entradas.
-Comprobar su funcionamiento.
+### Entregables 
+
+Comprenda cada línea del código HDL del archivo sum1bcc_primitive.v y sum1bcc.v que se encuentra en la carpera src. Si cree necesario realice los respectivos comentarios en el mismo archivo y comente las diferencias entre las dos descripciones.
+
+Analice la simulación de cada uno de los archivos y compruebe que el sumador funciona correctamente. la simulación se debe realizar con  quartus Multisim, segun la guia de simulación.
+
+Cree el nuevo proyecto HDL para el sumador de 4 bit, onde el top sea sum4bcc.v e instancie el sumador de 1 bit sum1bcc.v
+Creer el archivo testbench.v
+
+Genera la simulación, Revise que el sistema funciona como usted lo esperaba. Realice lo comentarios necesarios en el archivo README.md.
+Realice la respectiva publicación del repositorio antes de la fecha dada con todo el código fuente
+
 
 
