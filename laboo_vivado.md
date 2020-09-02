@@ -1,6 +1,6 @@
 ### Descargar instalador
 ## Instalación de Vivado
-Primero es necesario que descarguen el archivo .tar que usaran para realizar la instalacion.
+Primero es necesario que descarguen el archivo .tar que usaran para realizar la instalación.
 
 [Descarga](https://www.xilinx.com/support/download.html)
 
